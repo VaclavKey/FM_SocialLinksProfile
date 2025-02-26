@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin: 0;
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="48" viewBox="0 0 24 24"><path fill="%23000000" stroke="%23FFFFFF" stroke-width="1" stroke-linejoin="round" d="M18 14.88 8.16 3.15c-.26-.31-.76-.12-.76.28v15.31c0 .36.42.56.7.33l3.1-2.6 1.55 4.25c.08.22.33.34.55.26l1.61-.59a.43.43 0 0 0 .26-.55l-1.55-4.25h4.05c.36 0 .56-.42.33-.7Z"></path></svg>') 0 0, auto;
+}
+
+body
+{
+    background-color: hsl(0, 0%, 8%);
+    padding: 5vw 0;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 30%;
+    height: 90%;
+    margin: auto;
+    border-radius: 1vw;
+}
+
+#avatarimg
+{
+    max-width: 25%;
+    margin: auto;
+    margin-top: 6vw;
+    border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.buttons:last-child {
+  margin-bottom: 5vw;
+}
+
+button
+{
+    display: block;
+    width: 100%;
+    height: 3vw;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: hsl(0, 0%, 20%);
+    margin: 0.5vw 0;
+    font-weight: bold;
+    font-size:1vw;
+}
+
+button:hover
+{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23000000" stroke="%23FFFFFF" stroke-width="1" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>') 0 0, auto;
+}
+
+h1
+{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+h3
+{
+    font-size: 1.1vw;
+    color: hsl(75, 94%, 57%);
+}
+
+p
+{
+    font-size: 1vw;
+    margin: 1vw 0;
+}
+
+.bio
+{
+    margin-top: 2vw;
+    line-height: 2.5vw;
+}
