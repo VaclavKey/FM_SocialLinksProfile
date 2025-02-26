@@ -77,7 +77,7 @@ p {
 
 .canvas {
   background-color: hsl(0, 0%, 12%);
-  border-radius: 1vw;
+  border-radius: 1.5vw;
 }
 .section {
   display: flex;
