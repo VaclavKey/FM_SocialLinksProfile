@@ -31,7 +31,7 @@ main
     border-radius: 1vw;
 }
 
-#avatarimg
+#avatarimg img
 {
     max-width: 25%;
     margin: auto;
